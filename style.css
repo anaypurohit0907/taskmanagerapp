@@ -1,0 +1,200 @@
+ /* body {
+     font-family: Arial, sans-serif;
+     background-color: #f5f5f5;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+ }
+
+ #taskprecentage {
+     font-size: 20px;
+     color: #333;
+     margin-bottom: 20px;
+ }
+
+ #taskinput {
+     display: flex;
+     align-items: center;
+     background-color: #fff;
+     border-radius: 8px;
+     padding: 10px;
+     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+     margin-bottom: 20px;
+ }
+
+ #inputtask {
+     flex-grow: 1;
+     border: none;
+     padding: 10px;
+     font-size: 16px;
+     border-radius: 5px;
+     margin: 7px;
+     
+ }
+
+ #addbtn {
+     background-color: #007BFF;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     padding: 10px 20px;
+     font-size: 16px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+
+ #addbtn:hover {
+     background-color: #0056b3;
+ }
+
+ #taskdisplay {
+   
+     display: grid;
+     grid-template-rows: repeat(3, auto);
+   
+     gap: 5px;
+     background-color: #fff;
+     border-radius: 5px;
+     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+     padding: 20px;
+     width: 300px;
+ }
+
+ /* Style for individual tasks (you can adjust this as needed) */
+ /*#checkboxcount {
+     width: 40px;
+     height: 20px;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 5px;
+     font-size: 18px;
+     padding: 5px;
+ }
+ .thetask{
+    display:flex;
+    flex-grow: 1;
+
+ }
+
+ .delete-btn {
+     background-color: #FF5757;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     padding: 7px 10px;
+     font-size: 14px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+
+ .delete-btn:hover {
+     background-color: #FF0000;
+ }
+
+.tasktable{
+    text-align: center
+    
+    
+} */
+
+
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+  }
+
+  #taskprecentage {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 20px;
+  }
+
+  #taskinput {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 10px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+  }
+
+  #inputtask {
+      flex-grow: 1;
+      border: none;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      margin: 10px;
+  }
+
+  #addbtn {
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+
+  #addbtn:hover {
+      background-color: #0056b3;
+  }
+
+  #taskdisplay {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      width: 300px;
+  }
+
+  /* Style for individual tasks (you can adjust this as needed) */
+  .task {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+
+  .task-text {
+      flex-grow: 1;
+      font-size: 18px;
+      padding: 5px;
+  }
+
+  .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 5fr));
+      /* Adjust the button width and minimum column width as needed */
+      gap: 5px;
+      /* Adjust the gap between buttons */
+  }
+
+  .delete-btn {
+      background-color: #FF5757;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 10px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+
+  .delete-btn:hover {
+      background-color: #FF0000;
+  }
